@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mg.axechen.flowlayout.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="直接写在XML文件中" />
+    <com.mg.axechen.flowlayout.FlowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="易大师" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="德玛西亚之力" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="劫" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="疾风剑豪" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="斧王" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="axe" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="5v" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="写代码" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="乘风归去" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="卫生棉" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="大姨妈" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="呵呵" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="不得了了" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="不能说的秘密" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="我就是这么屌" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/flowlayout_item_shap"
+            android:padding="10dp"
+            android:text="装逼余额不足" />
+
+    </com.mg.axechen.flowlayout.FlowLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态添加" />
+
+
+    <com.mg.axechen.flowlayout.FlowLayout
+        android:id="@+id/flowLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
